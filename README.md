@@ -1,4 +1,5 @@
-# Interactive-Library este o un sistem de gestiune al titlurilor din biblioteca ta cu doua functii: 
+# Interactive-Library 
+Interactive-Library este o un sistem de gestiune al titlurilor din biblioteca ta cu doua functii: 
 1. O functie de filtrare obisnuta a titlurilor pe categorii (gen literar, secol aparitie, etc.)
 2. O functie interactiva: in functie de mai multi factori este calculata cartea potrivita pentru tine la acel moment.
 
