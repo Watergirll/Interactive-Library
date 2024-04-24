@@ -90,8 +90,39 @@ endfunction()
 ###############################################################################
 
 # NOTE: update executable name in .github/workflows/cmake.yml:25 when changing name here
-add_executable(${PROJECT_NAME} main.cpp
-        generated/src/Helper.cpp)
+include_directories(include)
+set(HEADERS
+        include/Exceptions.h
+        include/Book.h
+        include/Library.h
+        include/Taste.h
+        include/User.h
+        include/Student.h
+        include/Library.h
+        include/Lending.h
+        include/Pupil.h
+)
+set(SOURCES
+        main.cpp
+        src/Book.cpp
+        src/Library.cpp
+        src/Taste.cpp
+        src/User.cpp
+        src/Student.cpp
+        src/Librarian.cpp
+        src/Lending.cpp
+        src/Pupil.cpp
+)
+
+add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
+
+#[[include_directories(include)
+#
+#set(HEADERS include/linked_list.h)
+#set(SOURCES main.cpp)
+#
+#add_executable(02 ${SOURCES} ${HEADERS})]]
+
 
 ###############################################################################
 
