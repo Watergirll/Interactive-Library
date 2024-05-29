@@ -7,7 +7,7 @@
 #include "Library.h"
 #include <memory>
 
-
+//de regandit logica campului de tip LIBRARY ??
 // Base class User
 class User {
 protected:

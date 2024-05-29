@@ -101,6 +101,9 @@ set(HEADERS
         include/Library.h
         include/Lending.h
         include/Pupil.h
+        include/UserFactory.h
+        include/TasteBuilder.h
+
 )
 set(SOURCES
         main.cpp
@@ -112,6 +115,8 @@ set(SOURCES
         src/Librarian.cpp
         src/Lending.cpp
         src/Pupil.cpp
+        src/UserFactory.cpp
+        src/TasteBuilder.cpp
 )
 
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
