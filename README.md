@@ -1,24 +1,11 @@
 # Interactive-Library 
+
 Interactive-Library este o un sistem de gestiune al titlurilor din biblioteca ta cu doua functii: 
 1. O functie de filtrare obisnuta a titlurilor pe categorii (gen literar, secol aparitie, etc.)
 2. O functie interactiva: in functie de mai multi factori este calculata cartea potrivita pentru tine la acel moment.
 
-### Important!
-Aveți voie cu cod generat de modele de limbaj la care nu ați contribuit semnificativ doar în folder-ul `generated`.
-Codul generat pus "ca să fie"/pe care nu îl înțelegeți se punctează doar pentru puncte bonus, doar în contextul
-în care oferă funcționalități ajutătoare și doar dacă are sens.
-
-O cerință nu se consideră îndeplinită dacă este realizată doar ca o serie de apeluri proxy către cod generat.
-
-### Cerințe modele de limbaj la nivel de semestru
-- [ ] minim o funcționalitate majoritar doar cu LLM
-- [ ] minim 2-3 funcționalități ~50% voi, ~50% LLM-ul
-- [ ] minim 2-3 funcționalități suficient de complicate pe care un LLM nu le poate implementa
-
-### Tema 0
-
-- [ ] Nume proiect (poate fi schimbat ulterior)
-- [ ] Scurtă descriere a temei alese, ce v-ați propus să implementați
+> Proiectul a fost conceput pentru a îndeplini diverse funcționalități stabilite de către facultatea în cadrul careia am urmat cursul de POO în limbajul C++.
+<hr/>
 
 ## Tema 1
 
